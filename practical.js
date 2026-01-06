@@ -33,6 +33,8 @@
 // // }
 // // console.log(a(10,2))
 
+//ARROW FUNCTION
+
 // 5.Create an arrow function that checks whether a number is greater than 10.
 // let a=(nums)=>{
 //     for(i=0;i<nums.length;i++){
@@ -43,3 +45,10 @@
 // }
 
 // console.log(a([34,45,67,2]))
+
+// ANONYMOUS FUNCTION
+
+// 6.Use an anonymous function inside setTimeout to print “Time up”.
+// setTimeout(function(){
+//     console.log("the time is dead")
+// })
