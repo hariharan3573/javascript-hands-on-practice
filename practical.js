@@ -25,10 +25,21 @@
 // }
 // check([23,45,7,12])
 
-FUNCTION EXPRESSION
+// FUNCTION EXPRESSION
 
-// 4. Create a function expression that multiplies two numbers.
-// let a=function(a,b){
-//     return a*b
+// // 4. Create a function expression that multiplies two numbers.
+// // let a=function(a,b){
+// //     return a*b
+// // }
+// // console.log(a(10,2))
+
+// 5.Create an arrow function that checks whether a number is greater than 10.
+// let a=(nums)=>{
+//     for(i=0;i<nums.length;i++){
+//         if(nums[i]>10){
+//             console.log(nums[i],"it's a greater then the 10")
+//         }
+//     }
 // }
-// console.log(a(10,2))
+
+// console.log(a([34,45,67,2]))
