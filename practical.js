@@ -156,4 +156,14 @@
 // })
 // console.log(array)
 
+// 14.Given an array of numbers, use forEach to print each number.
+
+// const nums = [10, 25, 7, 40, 18];
+
+// nums.forEach((nums)=>{
+//     console.log(nums)
+// })
+
+
+
 
