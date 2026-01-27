@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<!-- Create a button. 
+1.When the button is clicked, create a <p> tag dynamically and append it to the page. 
+The paragraph should contain fixed text. 
+
+<button id="button">click</button>
+<script>
+    let button1=document.getElementById("button")
+        button1.addEventListener("click",()=>{
+        let paragraph=document.createElement("p");
+        paragraph.textContent="hariharan"
+        document.body.append(paragraph);
+    })  
+    </script>-->
+
+    <!-- 2.Select a <div> using querySelector. 
+        On button click, change its text content.
+
+    <div>narahiraH</div>
+    <button>change the text</button>
+    <script>
+        let a=document.querySelector("div")
+        let button1=document.querySelector("button");
+        button1.addEventListener("click",()=>{
+            a.textContent="hariharan"
+        })
+    </script> -->
+
+    <!-- 3.Create an input field and a button.
+    When the button is clicked, read the input value and display it inside an existing <p> tag.
+
+    <input id="ipt">
+    <br>
+    <button id="btn">click</button>
+    <script>
+        let btn1=document.getElementById("btn")
+        btn1.addEventListener("click",()=>{
+            let ipt1=document.getElementById("ipt")
+            let p1=document.createElement("p")
+            p1.textContent=ipt1.value
+            document.body.append(p1)
+        })
+    </script> -->
+
+    <!-- 4.Create a <ul> element.
+    On button click, create one <li> and append it to the list.
+
+    <div>
+        <ul id="ul">
+            <li>BurnOut</li>
+            <li>AbsetMind</li>
+        </ul>
+    </div>
+    <br>
+    <button id="btn">Add NoTalent</button>
+    <script>
+        let btn1=document.getElementById("btn")
+        btn1.addEventListener("click",()=>{
+            
+            let ul1=document.getElementById("ul")
+            let li1=document.createElement("li")
+            li1.textContent="NoTalent"
+            ul1.appendChild(li1)
+        })
+    </script> -->
+
+    <!-- 5.You have three buttons. 
+    When any button is clicked, display that button’s text inside a single <p> tag.
+    The paragraph should not duplicate.
+
+    <button>hariharan</button>
+    <button>narahiraH</button>
+    <button>looser</button>
+    <script>
+        let btn=document.querySelectorAll("button")
+        let p1=document.createElement("p")
+        document.body.append(p1)
+        btn.forEach((btn1)=>{
+            btn1.addEventListener("click",()=>{
+                
+                p1.textContent=btn1.textContent
+                
+            })
+        })
+    </script> -->
+
+<!-- </body>
+</html> -->
+
+
+
+
