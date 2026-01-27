@@ -83,3 +83,11 @@
 
 // console.log(array)
 
+const names = ["hari", "arun", "meera", "karthik", "divya"];
+
+let array=names.map((name)=>{
+    return name.toUpperCase()
+})
+
+console.log(array)
+
