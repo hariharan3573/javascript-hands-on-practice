@@ -63,10 +63,23 @@
 
 // console.log(array)
 
-const nums = [10, 25, 0, -7, 3.5, 100];
+// // 8.Convert all numbers in an array to strings.
 
-let string=nums.map((num)=>{
-    return num.toString()
-})
+// // const nums = [10, 25, 0, -7, 3.5, 100];
 
-console.log(string)
+// // let string=nums.map((num)=>{
+// //     return num.toString()
+// // })
+
+// console.log(string)
+
+// 9.Add 10 to every number in an array.
+
+// let nums=[5, 12, 0, 23, 8, 41];
+
+// let array=nums.map((num)=>{
+//     return num+=10
+// })
+
+// console.log(array)
+
