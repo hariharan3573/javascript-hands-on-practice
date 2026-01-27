@@ -164,6 +164,16 @@
 //     console.log(nums)
 // })
 
+// 15.Given an array of integers, use forEach to print only even numbers.
+
+// const nums = [3, 12, 7, 20, 15, 8, 11];
+
+// nums.forEach((num)=>{
+//     if(num%2==0){
+//         console.log(num)
+//     }
+// })
+
 
 
 
