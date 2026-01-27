@@ -175,5 +175,17 @@
 // })
 
 
+// 16.Find the sum of all numbers in an array
+
+// let nums=[1, 2, 3, 4, 5];
+
+// let array=nums.reduce((acc,cur)=>{
+//     return acc+cur
+// },0)
+
+// console.log(array)
+
+
+
 
 
