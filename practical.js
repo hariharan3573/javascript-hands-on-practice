@@ -83,11 +83,24 @@
 
 // console.log(array)
 
-const names = ["hari", "arun", "meera", "karthik", "divya"];
 
-let array=names.map((name)=>{
-    return name.toUpperCase()
-})
+// 10.Convert all names in an array to uppercase.
 
-console.log(array)
+// const names = ["hari", "arun", "meera", "karthik", "divya"];
+
+// let array=names.map((name)=>{
+//     return name.toUpperCase()
+// })
+
+// console.log(array)
+
+// 11.Extract the length of each string in an array.
+
+// const words = ["apple", "banana", "kiwi", "mango", "pineapple"];
+
+// let array=words.map((word)=>{
+//     return word.length
+// })
+
+// console.log(array)
 
