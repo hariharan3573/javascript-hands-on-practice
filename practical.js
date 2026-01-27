@@ -143,4 +143,17 @@
 
 // console.log(num)
 
+// 13.Given an array of numbers, return an array where each number is doubled if even, tripled if odd.
+
+// let nums=[1, 2, 3, 4, 5]
+
+// let array=nums.map((num)=>{
+//     if(num%2==0){
+//         return num*2
+//     }else{
+//         return num*3
+//     }
+// })
+// console.log(array)
+
 
