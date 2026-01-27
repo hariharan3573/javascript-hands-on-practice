@@ -104,3 +104,43 @@
 
 // console.log(array)
 
+// 12.Given an array of objects, return an array of only user names.
+
+// const users = [
+//   {
+//     id: 1,
+//     name: "Hari",
+//     email: "hari@gmail.com",
+//     role: "admin",
+//     isActive: true
+//   },
+//   {
+//     id: 2,
+//     name: "Meera",
+//     email: "meera@gmail.com",
+//     role: "user",
+//     isActive: true
+//   },
+//   {
+//     id: 3,
+//     name: "Arun",
+//     email: "arun@gmail.com",
+//     role: "user",
+//     isActive: false
+//   },
+//   {
+//     id: 4,
+//     name: "Divya",
+//     email: "divya@gmail.com",
+//     role: "manager",
+//     isActive: true
+//   }
+// ];
+
+// let num=users.map((user)=>{
+//     return user.name
+// })
+
+// console.log(num)
+
+
