@@ -52,3 +52,21 @@
 // setTimeout(function(){
 //     console.log("the time is dead")
 // })
+
+// 7.Convert all numbers in an array to their squares.
+
+// let nums=[1, 2, 3, 4, 5, 6, 7, 8, 9];
+
+// let array=nums.map((num)=>{
+//     return num*num
+// });
+
+// console.log(array)
+
+const nums = [10, 25, 0, -7, 3.5, 100];
+
+let string=nums.map((num)=>{
+    return num.toString()
+})
+
+console.log(string)
