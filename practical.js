@@ -199,6 +199,32 @@
 
 // console.log(array)
 
+// 18.Find the maximum number
+
+// let num=[10, 45, 3, 99, 22]
+
+// let nums=num.reduce((acc,cur)=>{
+//     return Math.max(cur,acc)
+// },0)
+
+// console.log(nums)
+
+
+// 19.Count how many numbers are even
+
+// let nums=[1, 2, 3, 4, 5, 6, 8]
+
+// let num=nums.reduce((acc,curr)=>{
+//     if(curr%2==0){
+//         acc++
+//     }
+//     return acc
+// },0)
+
+// console.log(num)
+
+
+
 
 
 
