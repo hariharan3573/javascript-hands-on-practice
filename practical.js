@@ -186,6 +186,20 @@
 // console.log(array)
 
 
+// 17.Find the total length of all strings
+
+// let str=["hi", "hello", "bye"]
+
+// // let array=str.reduce((acc,cur)=>{
+// //     if(cur){
+// //         acc++
+// //     }
+// //     return acc
+// // },0)
+
+// console.log(array)
+
+
 
 
 
