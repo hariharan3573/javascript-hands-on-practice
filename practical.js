@@ -223,6 +223,24 @@
 
 // console.log(num)
 
+// 20.Remove duplicate users based on email
+
+// let users=[
+//  {name:"Hari",email:"hari@gmail.com"},
+//  {name:"Haran",email:"haran@gmail.com"},
+//  {name:"Hari",email:"hari@gmail.com"}
+// ]
+
+// let newusers=[]
+
+// for(let user of users){
+//   if(!newusers.has(user)){
+//     newusers.push(user)
+//   }
+// }
+
+// console.log(newusers)
+
 
 
 
