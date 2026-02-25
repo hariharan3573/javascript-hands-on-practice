@@ -281,3 +281,28 @@
 // studentsdetails.set("student2",{name:"hari",marks:68})
 // studentsdetails.set("student3",{name:"harikaran",marks:83})
 
+//  24.Class & Object
+
+// Create a Student class with:
+
+// * name
+// * rollNo
+// * marks
+//   Method: getGrade()
+
+// class Student{
+//     constructor(name,rollno,marks){
+//         this.name=name,
+//         this.rollno=rollno,
+//         this.marks=marks
+//     }
+//     showdetails(){
+//         console.log(this.name)
+//         console.log(this.marks)
+//         console.log(this.rollno)
+//     }
+
+// }
+
+// let student1=new Student("hariharan",21,77)
+//     student1.showdetails()
