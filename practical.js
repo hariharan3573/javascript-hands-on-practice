@@ -259,13 +259,16 @@
 
 // console.log(num(2,3))
 
+//22.Create an object with 3 students and marks.
 
-
-
-
-
-
-
-
-
-
+// let students={
+//     student1:{
+//         name:"hariharan",marks:"47"
+//     },
+//     student2:{
+//         name:"hari",marks:"68"
+//     },
+//     student3:{
+//         name:"harikaran",marks:"83"
+//     }
+// }
