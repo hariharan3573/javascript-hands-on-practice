@@ -306,3 +306,30 @@
 
 // let student1=new Student("hariharan",21,77)
 //     student1.showdetails()
+
+// 25.Create a class:
+
+// 👉 Calculator
+
+// Add method:
+
+// add()
+
+// Add:
+
+// 2 numbers and return result.
+
+
+// class Calculator{
+//     constructor(a,b){
+//         this.a=a,
+//         this.b=b
+//     }
+
+//     add(){
+//         console.log(this.a+this.b)
+//     }
+// }
+
+// let sum=new Calculator(2,5)
+// sum.add()
