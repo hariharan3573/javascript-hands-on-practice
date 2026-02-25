@@ -241,6 +241,28 @@
 
 // console.log(newusers)
 
+// Tasks
+
+// 21. Convert ES5 code to ES6:
+
+// ```js
+// var add = function(a, b) {
+//   return a + b;
+// };
+// ```
+
+// ➡️ Use **arrow function**
+
+// let num=((a,b)=>{
+//     return a+b
+// })
+
+// console.log(num(2,3))
+
+
+
+
+
 
 
 
