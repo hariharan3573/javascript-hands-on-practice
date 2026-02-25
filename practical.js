@@ -272,3 +272,12 @@
 //         name:"harikaran",marks:"83"
 //     }
 // }
+
+// //23.Convert the same data into a Map.
+
+// let studentsdetails=new Map()
+
+// studentsdetails.set("student1",{name:"hariharan",marks:47})
+// studentsdetails.set("student2",{name:"hari",marks:68})
+// studentsdetails.set("student3",{name:"harikaran",marks:83})
+
