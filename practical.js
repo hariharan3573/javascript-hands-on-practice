@@ -381,3 +381,18 @@
 // }
 
 // console.log(secondlargest)
+
+// 29.frequency counter
+// let items = ["apple", "banana", "apple", "orange", "banana", "apple"];
+
+// let obj={}
+
+// for(item of items){
+//     if(obj[item]){
+//         obj[item]+=1
+//     }else{
+//         obj[item]=1
+//     }
+// }
+
+// console.log(obj)
