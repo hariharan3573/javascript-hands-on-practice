@@ -396,3 +396,7 @@
 // }
 
 // console.log(obj)
+
+//30.Find the datatype of a variable
+
+// console.log(typeof(5))
