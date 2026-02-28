@@ -225,21 +225,28 @@
 
 // 20.Remove duplicate users based on email
 
-// let users=[
-//  {name:"Hari",email:"hari@gmail.com"},
-//  {name:"Haran",email:"haran@gmail.com"},
-//  {name:"Hari",email:"hari@gmail.com"}
-// ]
+// let users = [
+//   { name: "Hari", email: "hari@gmail.com" },
+//   { name: "Haran", email: "haran@gmail.com" },
+//   { name: "Hari", email: "hari@gmail.com" },
+//   { name: "Kumar", email: "kumar@gmail.com" },
+//   { name: "Haran", email: "haran@gmail.com" }
+// ];
 
-// let newusers=[]
+// let duplicate=[]
 
-// for(let user of users){
-//   if(!newusers.has(user)){
-//     newusers.push(user)
-//   }
+// let check=new Set()
+
+// for(user of users){
+//     if(!check.has(user.email)){
+//         check.add(user.email)
+//         duplicate.push(user)
+//     }
 // }
 
-// console.log(newusers)
+// console.log(duplicate)
+
+
 
 // Tasks
 
@@ -346,3 +353,15 @@
 // })
 
 // console.log(duplicate)
+
+// 27.find the largest number
+// let arr = [45, 12, 89, 32, 5, 99, 23];
+
+// let largest=-Infinity
+// for(i=0;i<arr.length;i++){
+//     if(arr[i]>=largest){
+//         largest=arr[i]
+//     }
+// }
+
+// console.log(largest)
