@@ -333,3 +333,16 @@
 
 // let sum=new Calculator(2,5)
 // sum.add()
+
+//26.Remove duplicates using filter
+
+// let array=[10,20,10,30,40,30,50,20]
+
+// let duplicate=[]
+// let nums=array.filter((a)=>{
+//     if(!duplicate.includes(a)){
+//         duplicate.push(a)
+//     }
+// })
+
+// console.log(duplicate)
