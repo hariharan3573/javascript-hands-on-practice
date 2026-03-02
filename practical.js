@@ -400,3 +400,16 @@
 //30.Find the datatype of a variable
 
 // console.log(typeof(5))
+
+//31.Swap two numbers using temp variable
+
+let a = 5;
+let b = 10;
+let temp=0;
+
+temp=a;
+a=b;
+b=temp
+
+console.log(a,b)
+
