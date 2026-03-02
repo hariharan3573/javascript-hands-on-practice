@@ -424,3 +424,16 @@
 
 // console.log(x,y)
 
+//33.Check if number is positive, negative, or zero.
+
+// let num = "10";
+
+// if(num<0){
+//     console.log("it's negative")
+// }else if(num>0){
+//     console.log("it's positive")
+// }else{
+//     console.log("it's zero")
+// }
+
+
