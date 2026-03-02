@@ -403,13 +403,24 @@
 
 //31.Swap two numbers using temp variable
 
-let a = 5;
-let b = 10;
-let temp=0;
+// let a = 5;
+// let b = 10;
+// let temp=0;
 
-temp=a;
-a=b;
-b=temp
+// temp=a;
+// a=b;
+// b=temp
 
-console.log(a,b)
+// console.log(a,b)
+
+//32.Swap Two Numbers Without Temporary Variable
+
+// let x = -3;
+// let y = 7;
+
+// x=x+y;
+// y=x-y;
+// x=x-y;
+
+// console.log(x,y)
 
