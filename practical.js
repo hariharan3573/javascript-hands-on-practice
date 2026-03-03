@@ -465,3 +465,18 @@
 // }
 
 // console.log(nums)
+
+//35.Find sum of digits
+
+let nums=1234;
+
+let n=nums;
+let sum=0
+while(n>0){
+    let digits=n%10
+    sum+=digits
+    n=Math.floor(n/10)
+    
+}
+
+console.log(sum)
