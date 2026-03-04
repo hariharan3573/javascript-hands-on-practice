@@ -495,3 +495,15 @@
 // promise
 // .then((result)=>console.log(result))
 // .catch((error)=>console.log(error))
+
+//37.Sum Property Values
+
+// let employees = [
+//   { name: "Arun", salary: 20000 },
+//   { name: "Bala", salary: 25000 },
+//   { name: "Kumar", salary: 30000 }
+// ];
+
+// for(let employee of employees){
+//     console.log(employee.name)
+// }
