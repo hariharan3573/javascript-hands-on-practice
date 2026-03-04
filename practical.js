@@ -571,3 +571,21 @@
 
 // let p = new payment()
 // p.pay(400)
+
+//41.example for ploymorsphim Notification Service
+
+// class notification{
+//     email(message){
+//         console.log("you receive the message in email",message)
+//     }
+// }
+
+// class smsnotification extends notification{
+//     sms(message){
+//         console.log("you recieved the message in email",message)
+//     }
+// }
+
+// let m=new smsnotification()
+// m.sms("hello")
+
