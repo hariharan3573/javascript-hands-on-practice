@@ -589,3 +589,19 @@
 // let m=new smsnotification()
 // m.sms("hello")
 
+//42.shallow copy
+
+// let obj1={
+//     name:"hariharan",
+//     age:21,
+//     address:{
+//         city:"salem"
+//     }
+// }
+
+// let obj2={...obj1}
+
+// obj1.address.city="coimbatore";
+
+// console.log(obj1)
+
