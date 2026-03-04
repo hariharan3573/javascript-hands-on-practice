@@ -468,15 +468,30 @@
 
 //35.Find sum of digits
 
-let nums=1234;
+// let nums=1234;
 
-let n=nums;
-let sum=0
-while(n>0){
-    let digits=n%10
-    sum+=digits
-    n=Math.floor(n/10)
+// let n=nums;
+// let sum=0
+// while(n>0){
+//     let digits=n%10
+//     sum+=digits
+//     n=Math.floor(n/10)
     
-}
+// }
 
-console.log(sum)
+// console.log(sum)
+
+//36.create a promise
+
+// let promise=new Promise((resolve,reject)=>{
+//     let succuess=false;
+//     if(succuess){
+//         resolve("good")
+//     }else{
+//         reject("bad")
+//     }
+// })
+
+// promise
+// .then((result)=>console.log(result))
+// .catch((error)=>console.log(error))
