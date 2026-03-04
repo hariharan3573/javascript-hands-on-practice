@@ -507,3 +507,17 @@
 // for(let employee of employees){
 //     console.log(employee.name)
 // }
+
+//38.Find Specific Data
+
+let students = [
+  { name: "Arun", age: 21 },
+  { name: "Vijay", age: 22 },
+  { name: "Kumar", age: 23 }
+];
+
+for(i=0;i<students.length;i++){
+    if(students[i].name=="Vijay"){
+        console.log(students[i].age)
+    }
+}
