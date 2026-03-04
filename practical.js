@@ -554,3 +554,20 @@
 // }
 
 // console.log(sum(1)(2)(3))
+
+//40.Example Of Polymorphism
+
+// class payment{
+//     pay(amount){
+//         console.log("you payed form cash",amount)
+//     }
+// }
+
+// class upi extends payment {
+//     pay(amount){
+//         console.log("you payed from upi",amount)
+//     }
+// }
+
+// let p = new payment()
+// p.pay(400)
