@@ -605,3 +605,21 @@
 
 // console.log(obj1)
 
+//43.deep copy
+
+// let obj1={
+//     name:"hariharan",
+//     age:21,
+//     address:{
+//         city:"salem"
+//     }
+// }
+
+// let obj2=JSON.parse(JSON.stringify(obj1))
+
+// obj2.address.city="coimbatore"
+
+// console.log(obj2)
+
+
+
