@@ -496,7 +496,7 @@
 // .then((result)=>console.log(result))
 // .catch((error)=>console.log(error))
 
-//37.Sum Property Values
+//37.print all names
 
 // let employees = [
 //   { name: "Arun", salary: 20000 },
@@ -510,14 +510,35 @@
 
 //38.Find Specific Data
 
-let students = [
-  { name: "Arun", age: 21 },
-  { name: "Vijay", age: 22 },
-  { name: "Kumar", age: 23 }
-];
+// let students = [
+//   { name: "Arun", age: 21 },
+//   { name: "Vijay", age: 22 },
+//   { name: "Kumar", age: 23 }
+// ];
 
-for(i=0;i<students.length;i++){
-    if(students[i].name=="Vijay"){
-        console.log(students[i].age)
-    }
-}
+// for(i=0;i<students.length;i++){
+//     if(students[i].name=="Vijay"){
+//         console.log(students[i].age)
+//     }
+// }
+
+//38.Sum Property Values
+
+//let employees = [
+//   { name: "Arun", salary: 20000 },
+//   { name: "Bala", salary: 25000 },
+//   { name: "Kumar", salary: 30000 }
+// ];
+
+// let sum=0;
+// // for(let employee of employees){
+// //     sum+=employee.salary
+// // }
+
+// // console.log(sum)
+
+// for(i=0;i<employees.length;i++){
+//     sum+=employees[i].salary
+// }
+
+// console.log(sum)
