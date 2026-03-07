@@ -644,5 +644,18 @@
 
 // e(2,4)
 
+//45.create server in HTTP
 
+// const http=require('http')
+
+// let server=http.createServer((req,res)=>{
+//     if(req.url=="/" && req.method=="GET"){
+//         console.log("hariharan")
+//         res.setHeader("content-type","application/json")
+//         res.end(JSON.stringify({name:"hariharan"}))
+//     }
+// })
+// server.listen(5000,()=>{
+//     console.log("server is running on http://localhost:5000")
+// })
 
