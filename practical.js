@@ -621,5 +621,28 @@
 
 // console.log(obj2)
 
+//44.HOF
+//Rule no:1
+// function name(){
+//     console.log("hello")
+// }
+
+// function hof(callback){
+//     console.log("hariharan")
+//     callback()
+// }
+
+// hof(name)
+//Rule no:2
+// function example(){
+//     return function(a,b){
+//         console.log(a+b)
+//     }
+// }
+
+// let e=example()
+
+// e(2,4)
+
 
 
