@@ -685,3 +685,18 @@
   
 // console.log(prime)
 
+//47.find the palindrome number
+
+// let a=122;
+
+// //console.log(a.split("").reverse().join(""))
+
+// let num=a;
+// let b=[]
+// while(num>0){
+//   let n=num%10
+//   b.push(n)
+//   num=Math.floor(num/10)
+// }
+
+// console.log(b.join(""))
