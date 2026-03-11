@@ -703,4 +703,8 @@
 
 //48.	Create object and print it
 
-const obj={name:"hariharan",age:21}
+// const obj={name:"hariharan",age:21}
+
+//49.Access object properties
+
+console.log(obj.name)
