@@ -659,3 +659,29 @@
 //     console.log("server is running on http://localhost:5000")
 // })
 
+//46.find the prime Number
+
+// let arr=[34,2,1,78,4,3]
+
+
+// let isprime=true
+
+// let prime=[]
+// for(i=0;i<arr.length;i++){
+//   let isprime=true
+//   if(arr[i]<=1){
+//     isprime=false
+//   }
+//   for(j=2;j<arr[i];j++){
+//     if(arr[i]%j==0){
+//       isprime=false
+//     }
+//   }
+//   if(isprime){
+//     prime.push(arr[i])
+//   }
+// }
+  
+  
+// console.log(prime)
+
