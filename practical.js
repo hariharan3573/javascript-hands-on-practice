@@ -707,4 +707,8 @@
 
 //49.Access object properties
 
-console.log(obj.name)
+// console.log(obj.name)
+
+//50.Add new property
+
+obj.city="salem"
