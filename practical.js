@@ -700,3 +700,7 @@
 // }
 
 // console.log(b.join(""))
+
+//48.	Create object and print it
+
+const obj={name:"hariharan",age:21}
