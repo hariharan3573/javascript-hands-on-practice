@@ -711,4 +711,40 @@
 
 //50.Add new property
 
-obj.city="salem"
+//obj.city="salem"
+
+//51.Encapsulation
+// Create a class Person
+
+// Requirements:
+
+// private variable #name
+
+// constructor to initialize name
+
+// getter to read the name
+
+// setter to update the name
+
+
+// class Person{
+//   #name="narahiraH"
+  
+//   get read(){
+//     return this.#name;
+//   }
+  
+//   set write(name){
+//     this.#name=name
+//   }
+// }
+
+  
+
+// let obj=new Person()
+
+// console.log(obj.read)
+
+// obj.write="hariharan"
+
+// console.log(obj.read)
