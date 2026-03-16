@@ -748,3 +748,27 @@
 // obj.write="hariharan"
 
 // console.log(obj.read)
+
+
+//52.Another prime number
+// let arr=[4,7,2,1,89,65,89,34];
+
+// let num=[]
+// for(i=0;i<arr.length;i++){
+//   let isprime=true
+//   if(arr[i]<=2){
+//     isprime=false
+//   }else{
+//     for(j=2;j<arr[i];j++){
+//       if(arr[i]%j==0){
+//         isprime=false
+//         break;
+//       }
+//     }
+//   }
+//   if(isprime){
+//     num.push(arr[i])
+//   }
+// }
+
+// console.log(num)
