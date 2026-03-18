@@ -785,3 +785,13 @@
 // }
 
 // console.log(obj1)
+
+
+//54.Delete the last inserted property from an object
+// let obj = { a: 10, b: 20, c: 30, d: 40 };
+
+// let keys=Object.keys(obj).pop()
+
+// delete obj[keys]
+
+// console.log(obj)
