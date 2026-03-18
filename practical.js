@@ -772,3 +772,16 @@
 // }
 
 // console.log(num)
+
+
+// 53.Remove all key-value pairs where value is even number
+// let obj = { a: 1, b: 4, c: 7, d: 10 };
+
+// let obj1={}
+// for(let value in obj){
+//   if(obj[value]%2!==0){
+//     obj1[value]=obj[value]
+//   }
+// }
+
+// console.log(obj1)
