@@ -806,3 +806,18 @@
 // }
 
 // console.log(arr)
+
+//56.Find the key with highest value
+
+// let obj = { a: 10, b: 25, c: 5 };
+
+// let max=-Infinity;
+// let keys="";
+// for(let value in obj){
+//   if(obj[value]>max){
+//     max=obj[value];
+//     keys=value
+//   }
+// }
+
+// console.log(max,keys)
