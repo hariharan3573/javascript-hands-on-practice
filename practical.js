@@ -795,3 +795,14 @@
 // delete obj[keys]
 
 // console.log(obj)
+
+// 55.//Convert this object into array of key-value pairs
+
+// let obj = { name: "Hari", age: 22 };
+// let arr=[]
+
+// for(let keys in obj){
+//   arr.push([keys,obj[keys]])
+// }
+
+// console.log(arr)
