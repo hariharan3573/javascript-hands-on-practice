@@ -821,3 +821,24 @@
 // }
 
 // console.log(max,keys)
+
+//57.Find second highest marks
+// let students = [
+//   { name: "A", marks: 60 },
+//   { name: "B", marks: 85 },
+//   { name: "C", marks: 75 }
+// ]
+
+// let max=-Infinity;
+// let min=-Infinity;
+
+// for(let student of students){
+//   if(student.marks>max){
+//     min=max;
+//     max=student.marks
+//   }else if(student.marks>min && student.marks<max){
+//     min=student.marks
+//   }
+// }
+
+// console.log(max)
