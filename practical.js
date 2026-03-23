@@ -887,3 +887,21 @@
 // }
 
 // console.log(odd)
+
+//59.1.Find largest odd number using reduce
+
+
+
+let arr = [1, 5, 3, 2]
+
+let arr1=arr.reduce((acc,curr)=>{
+  if(curr%2!==0){
+    acc.push(curr)
+  }
+  return acc
+  
+},[])
+
+
+console.log(Math.max(...arr1))
+
