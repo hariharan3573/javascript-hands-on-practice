@@ -422,6 +422,22 @@
 // y=x-y;
 // x=x-y;
 
+//32.1.Reverse an array using swapping (no reverse())
+
+// let arr = [0, -1, -2, -3]
+
+// for(i=0;i<arr.length;i++){
+//   for(j=0;j<arr.length;j++){
+//     if(i<j){
+//       temp=arr[i];
+//       arr[i]=arr[j];
+//       arr[j]=temp
+//     }
+//   }
+// }
+
+// console.log(arr)
+
 // console.log(x,y)
 
 //33.Check if number is positive, negative, or zero.
@@ -823,6 +839,7 @@
 // console.log(max,keys)
 
 //57.Find second highest marks
+
 // let students = [
 //   { name: "A", marks: 60 },
 //   { name: "B", marks: 85 },
