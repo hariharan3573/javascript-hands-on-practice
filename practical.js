@@ -869,3 +869,21 @@
 // })
 
 // console.log(arr1)
+
+// 59.Find largest odd number 
+
+// let arr = [-1, -3, -5, -2]
+// let arr1=[]
+// for(i=0;i<arr.length;i++){
+//   if(arr[i]%2!==0){
+//     arr1.push(arr[i])
+//   }
+// }
+// console.log(arr1)
+// let max=-Infinity
+// let odd=0
+// for(j=0;j<arr1.length;j++){
+//   odd=Math.max(max,arr1[j])
+// }
+
+// console.log(odd)
