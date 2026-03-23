@@ -859,3 +859,13 @@
 // }
 
 // console.log(max)
+
+//58.To remove the second last element from an array.
+
+// let arr=[10, 20, 30, 40, 50]
+
+// let arr1=arr.filter((value,index)=>{
+//    return index!==arr.length-2
+// })
+
+// console.log(arr1)
