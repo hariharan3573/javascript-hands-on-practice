@@ -890,18 +890,53 @@
 
 //59.1.Find largest odd number using reduce
 
+// let arr = [1, 5, 3, 2]
 
-
-let arr = [1, 5, 3, 2]
-
-let arr1=arr.reduce((acc,curr)=>{
-  if(curr%2!==0){
-    acc.push(curr)
-  }
-  return acc
+// let arr1=arr.reduce((acc,curr)=>{
+//   if(curr%2!==0){
+//     acc.push(curr)
+//   }
+//   return acc
   
-},[])
+// },[])
 
 
-console.log(Math.max(...arr1))
+// console.log(Math.max(...arr1))
+
+// 60.create a function to remove the unqiue numbers in the Array
+
+// let arr=[34,34,67,87,87]
+
+// function hello(...arr){
+//   return new Set(...arr)
+// }
+
+// console.log(hello(arr))
+
+//61.promise.all
+
+let promise=new Promise((resolve,reject)=>{
+  let success=true;
+  if(success){
+    resolve("welldone")
+  }else{
+    reject("workmore")
+  }
+})
+
+let promise1=new Promise((resolve,reject)=>{
+  let success=false;
+  if(success){
+    resolve("welldone")
+  }else{
+    reject("workmore")
+  }
+})
+Promise.all([promise,promise1])
+     .then((resolve)=>console.log(resolve))
+     .catch((reject)=>console.log(reject))
+     .finally(()=>console.log("life"))
+
+     62.promise.allsetteled
+     
 
