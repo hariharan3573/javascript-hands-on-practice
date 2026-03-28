@@ -915,28 +915,43 @@
 
 //61.promise.all
 
-let promise=new Promise((resolve,reject)=>{
-  let success=true;
-  if(success){
-    resolve("welldone")
-  }else{
-    reject("workmore")
-  }
-})
+// let promise=new Promise((resolve,reject)=>{
+//   let success=true;
+//   if(success){
+//     resolve("welldone")
+//   }else{
+//     reject("workmore")
+//   }
+// })
 
-let promise1=new Promise((resolve,reject)=>{
-  let success=false;
-  if(success){
-    resolve("welldone")
-  }else{
-    reject("workmore")
-  }
-})
-Promise.all([promise,promise1])
-     .then((resolve)=>console.log(resolve))
-     .catch((reject)=>console.log(reject))
-     .finally(()=>console.log("life"))
+// let promise1=new Promise((resolve,reject)=>{
+//   let success=false;
+//   if(success){
+//     resolve("welldone")
+//   }else{
+//     reject("workmore")
+//   }
+// })
+// Promise.all([promise,promise1])
+//      .then((resolve)=>console.log(resolve))
+//      .catch((reject)=>console.log(reject))
+//      .finally(()=>console.log("life"))
 
-     62.promise.allsetteled
      
+     let obj = {
+  a: 10,
+  b: 45,
+  c: 23,
+  d: 67,
+  e: 34
+};
+
+let max=-Infinity;
+for(let index in obj){
+  if(max<obj[index]){
+    max=obj[index]
+  }
+}
+
+console.log(max)
 
