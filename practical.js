@@ -938,20 +938,42 @@
 //      .finally(()=>console.log("life"))
 
      
-     let obj = {
-  a: 10,
-  b: 45,
-  c: 23,
-  d: 67,
-  e: 34
-};
+// 62.find the largest element in the obj
+//      let obj = {
+//   a: 10,
+//   b: 45,
+//   c: 23,
+//   d: 67,
+//   e: 34
+// };
 
-let max=-Infinity;
-for(let index in obj){
-  if(max<obj[index]){
-    max=obj[index]
+// let max=-Infinity;
+// for(let index in obj){
+//   if(max<obj[index]){
+//     max=obj[index]
+//   }
+// }
+
+// console.log(max)
+
+63.find the frequency in the Array
+
+let arr=[23,45,67,87,45]
+
+let freq=[]
+let count=0;
+
+for(let i=0;i<arr.length;i++){
+  count=0
+  for(j=0;j<arr.length;j++){
+    if(arr[i]==arr[j]){
+      count++;
+    }
+  }
+  if(2<=count && !freq.includes(arr[i])){
+    freq.push(arr[i])
   }
 }
 
-console.log(max)
+console.log(freq)
 
