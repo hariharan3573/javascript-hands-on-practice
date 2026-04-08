@@ -956,24 +956,37 @@
 
 // console.log(max)
 
-63.find the frequency in the Array
+// 63.find the frequency in the Array
 
-let arr=[23,45,67,87,45]
+// let arr=[23,45,67,87,45]
 
-let freq=[]
-let count=0;
+// let freq=[]
+// let count=0;
 
-for(let i=0;i<arr.length;i++){
-  count=0
-  for(j=0;j<arr.length;j++){
-    if(arr[i]==arr[j]){
-      count++;
-    }
-  }
-  if(2<=count && !freq.includes(arr[i])){
-    freq.push(arr[i])
-  }
-}
+// for(let i=0;i<arr.length;i++){
+//   count=0
+//   for(j=0;j<arr.length;j++){
+//     if(arr[i]==arr[j]){
+//       count++;
+//     }
+//   }
+//   if(2<=count && !freq.includes(arr[i])){
+//     freq.push(arr[i])
+//   }
+// }
 
-console.log(freq)
+// console.log(freq)
+
+//64. Find the sum of all elements in an array
+// [1,2,3,4] → 10
+
+// let arr=[1,2,3,4]
+
+// let sum=0;
+
+// for(i=0;i<arr.length;i++){
+//   sum+=arr[i]
+// }
+
+// console.log(sum)
 
