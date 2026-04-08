@@ -990,3 +990,20 @@
 
 // console.log(sum)
 
+//65.// Find the smallest number and second smallest number in an array.
+
+// let arr=[34,56,71,34,65,90,31,34]
+
+// let max=Infinity;
+// let min=Infinity;
+
+// for(i=0;i<arr.length;i++){
+//   if(min>arr[i]){
+//     max=min;
+//     min=arr[i]
+//   }else if(max>arr[i] && min<arr[i]){
+//     max=arr[i]
+//   }
+// }
+
+// console.log(min,max)
